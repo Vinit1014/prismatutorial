@@ -1,0 +1,10 @@
+There are 2 types of modifiers in prisma:
+
+[] means it can be multiple
+?  means it can be optional
+
+When we have 2 references in 1:N relationship between table then use @relation to avoid ambiguity.
+
+We can use select or include, we can't use both at the same time.
+
+We can't use select with CreateMany function.
